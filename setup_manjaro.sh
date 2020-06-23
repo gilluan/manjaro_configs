@@ -24,6 +24,15 @@ pacman -S clang tar fd --noconfirm
 pacman -S zsh --noconfirm
 
 
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/pikaur.git
+cd pikaur
+makepkg -fsri
+
+git clone https://aur.archlinux.org/slack-desktop.git
+cd slack-desktop
+makepkg -si
+
 
 
 #
