@@ -34,6 +34,19 @@ cd slack-desktop
 makepkg -si
 
 
+git clone https://aur.archlinux.org/snapd.git
+cd snapd
+makepkg -si
+
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+
+curl -L get.rvm.io > rvm-install
+
+bash < ./rvm-install
+
+source ~/.bash_profile
+
 
 #
 echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"' >> $HOME/.zshrc
