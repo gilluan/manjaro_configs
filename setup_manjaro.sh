@@ -41,11 +41,13 @@ makepkg -si
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 
-curl -L get.rvm.io > rvm-install
+sudo snap install code --classic
 
-bash < ./rvm-install
+#curl -L get.rvm.io > rvm-install
 
-source ~/.bash_profile
+#bash < ./rvm-install
+
+#source ~/.bash_profile
 
 
 #
