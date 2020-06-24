@@ -54,6 +54,10 @@ sudp pacman -S docker docker-compose
 
 #source ~/.bash_profile
 
+# install chrome driver
+# download chrome driver
+# unzip -d /tmp ~/Downloads/chromedriver*.zip
+# sudo mv /tmp/chromedriver /usr/local/bin
 
 #
 echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"' >> $HOME/.zshrc
