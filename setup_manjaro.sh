@@ -43,6 +43,9 @@ sudo ln -s /var/lib/snapd/snap /snap
 
 sudo snap install code --classic
 
+sudo snap install zoom-client
+
+
 sudp pacman -S docker docker-compose
 
 #curl -L get.rvm.io > rvm-install
