@@ -12,6 +12,10 @@ makepkg -s --noconfirm
 
 sudo pacman -U google-chrome*.tar.xz
 
+sudo xdg-settings set default-web-browser google-chrome.desktop
+
+
+
 
 pacman -S nodejs npm --noconfirm
 
