@@ -78,4 +78,7 @@ dotfiles config --local status.showUntrackedFiles no
   pacman -S the_silver_searcher
 
 
+ sudo pacman -S oracle-sqldeveloper
+
+
  # UUUUUUUUU
