@@ -73,5 +73,9 @@ dotfiles config --local status.showUntrackedFiles no
 
  mv ~/.bashrc ~/.bashrc_default
   mv ~/.zshrc ~/.zshrc_default
+  
+# for emacs ag counsel  
+  pacman -S the_silver_searcher
+
 
  # UUUUUUUUU
