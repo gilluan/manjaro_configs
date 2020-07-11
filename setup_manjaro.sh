@@ -99,7 +99,10 @@ sudo pacman -S oracle-sqldeveloper --noconfirm
 
 sudo pacman -S manjaro-settings-manager --noconfirm
 
+sudo pacman -S jdk-openjdk --noconfirm  
 sudo pacman -S jdk8-openjdk --noconfirm  
+
+ sudo pacman -S arandr --noconfirm  
 
 
  # UUUUUUUUU
