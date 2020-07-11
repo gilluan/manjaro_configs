@@ -105,4 +105,9 @@ sudo pacman -S jdk8-openjdk --noconfirm
  sudo pacman -S arandr --noconfirm  
 
 
+https://gist.github.com/jprando/f81d8b7ffdf64b5f0c81e2d3ed186657
+
+  sudo pacman -Sy optimus-manager
+
+
  # UUUUUUUUU
