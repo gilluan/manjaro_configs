@@ -97,5 +97,9 @@ sudo pacman -S the_silver_searcher --noconfirm
 
 sudo pacman -S oracle-sqldeveloper --noconfirm
 
+sudo pacman -S manjaro-settings-manager --noconfirm
+
+sudo pacman -S jdk8-openjdk --noconfirm  
+
 
  # UUUUUUUUU
