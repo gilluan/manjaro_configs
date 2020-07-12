@@ -116,5 +116,7 @@ sudo usermod -aG docker $(whoami)
  sudo systemctl enable /usr/lib/systemd/system/docker.service
 
 
+yay -S gitflow-avh --noconfirm
+
 
  # UUUUUUUUU
