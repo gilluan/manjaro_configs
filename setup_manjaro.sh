@@ -113,6 +113,8 @@ sudo pacman -S lib32-nvidia-440xx-utils
 
 sudo groupadd docker
 sudo usermod -aG docker $(whoami)
+ sudo systemctl enable /usr/lib/systemd/system/docker.service
+
 
 
  # UUUUUUUUU
