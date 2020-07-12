@@ -111,5 +111,8 @@ https://gist.github.com/jprando/f81d8b7ffdf64b5f0c81e2d3ed186657
 
 sudo pacman -S lib32-nvidia-440xx-utils
 
+sudo groupadd docker
+sudo usermod -aG docker $(whoami)
+
 
  # UUUUUUUUU
