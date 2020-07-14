@@ -118,5 +118,13 @@ sudo usermod -aG docker $(whoami)
 
 yay -S gitflow-avh --noconfirm
 
+#bluetooth config
 
+sudo pacman -S blueman
+systemctl enable --now bluetooth.service 
+#From terminal:
+#sudo pacman -S pulseaudio-bluetooth
+#sudo nano /etc/bluetooth/main.conf
+#and add under the [General] line:
+#Enable=Source,Sink,Media,Socket
  # UUUUUUUUU
