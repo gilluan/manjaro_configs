@@ -128,3 +128,8 @@ systemctl enable --now bluetooth.service
 #and add under the [General] line:
 #Enable=Source,Sink,Media,Socket
  # UUUUUUUUU
+ 
+ 
+ sudo pacman -Syyu --noconfirm
+ 
+#### Instalar Manjaro Video Drives -----  https://www.addictivetips.com/ubuntu-linux-tips/nvidia-graphics-drivers-manjaro/
