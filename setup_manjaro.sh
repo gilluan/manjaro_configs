@@ -133,3 +133,7 @@ systemctl enable --now bluetooth.service
  sudo pacman -Syyu --noconfirm
  
 #### Instalar Manjaro Video Drives -----  https://www.addictivetips.com/ubuntu-linux-tips/nvidia-graphics-drivers-manjaro/
+
+
+sudo pacman -S dbeaver --noconfirm
+sudo pacman -S vim --noconfirm
