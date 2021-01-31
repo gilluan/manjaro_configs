@@ -1,21 +1,33 @@
 #!/bin/bash
 
+
+
+sudo pacman-mirrors --fasttrack
+
+sudo pacman -Syu --noconfirm
+
+sudo systemctl enable fstrim.timer
+
+
 sudo pacman -S git --noconfirm
 
 
+sudo pacman -S vim --noconfirm
+sudo pacman -S chromium --noconfirm
+
 # Installing the google chrome
-git clone https://aur.archlinux.org/google-chrome.git
+#git clone https://aur.archlinux.org/google-chrome.git
 
-cd google-chrome
+#cd google-chrome
 
-makepkg -s --noconfirm
+#makepkg -s --noconfirm
 
-sudo pacman -U google-chrome*.tar.xz --noconfirm
+#sudo pacman -U google-chrome*.tar.xz --noconfirm
 
-sudo xdg-settings set default-web-browser google-chrome.desktop
+#sudo xdg-settings set default-web-browser google-chrome.desktop
 
-cd ..
-rm -rf google-chrome
+#cd ..
+#rm -rf google-chrome
 
 
 
@@ -57,10 +69,7 @@ rm -rf snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 
-####### Must to put a sleep time ######
-####### Must to put a sleep time ######
-####### Must to put a sleep time ######
-####### Must to put a sleep time ######
+sleep 20
 
 sudo snap install code --classic
 
@@ -102,18 +111,18 @@ sudo pacman -S manjaro-settings-manager --noconfirm
 sudo pacman -S jdk-openjdk --noconfirm  
 sudo pacman -S jdk8-openjdk --noconfirm  
 
- sudo pacman -S arandr --noconfirm  
+sudo pacman -S arandr --noconfirm  
 
 
-https://gist.github.com/jprando/f81d8b7ffdf64b5f0c81e2d3ed186657
+#https://gist.github.com/jprando/f81d8b7ffdf64b5f0c81e2d3ed186657
 
-  sudo pacman -Sy optimus-manager
+sudo pacman -Sy optimus-manager
 
 sudo pacman -S lib32-nvidia-440xx-utils
 
 sudo groupadd docker
 sudo usermod -aG docker $(whoami)
- sudo systemctl enable /usr/lib/systemd/system/docker.service
+sudo systemctl enable /usr/lib/systemd/system/docker.service
 
 
 yay -S gitflow-avh --noconfirm
@@ -130,10 +139,13 @@ systemctl enable --now bluetooth.service
  # UUUUUUUUU
  
  
- sudo pacman -Syyu --noconfirm
+sudo pacman -Syyu --noconfirm
  
 #### Instalar Manjaro Video Drives -----  https://www.addictivetips.com/ubuntu-linux-tips/nvidia-graphics-drivers-manjaro/
 
 
 sudo pacman -S dbeaver --noconfirm
-sudo pacman -S vim --noconfirm
+
+sudo npm i yarn -g
+sudo npm i n -g
+
